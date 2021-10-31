@@ -8,7 +8,8 @@ eight neighbors (horizontal, vertical, diagonal) using the following four rules 
 -Any live cell with more than three live neighbors dies, as if by over-population.
 -Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.
 -The next state is created by applying the above rules simultaneously to every cell in the current state, where births and deaths occur simultaneously.
-Given the current state of the m x n grid board, return the next state. */
+Given the current state of the m x n grid board, return the next state.
+Detailed Description- https://leetcode.com/problems/game-of-life/*/
 
 public class Solution {
     public void gameOfLife(int[][] board) {
